@@ -7,11 +7,14 @@
 # Demo Features
 
 * The following image and gif shows the web application's appearance and functionality.
-![Training Tracker Screenshot]()  
+![Training Tracker Screenshot](public/img/appPic.png)  
+![Training Tracker Dashboard Screenshot](public/img/appDashboardpic.png)
 ![Training Tracker gif]()
 
 # Live URL:
 <a href="https://training-tracker-7.herokuapp.com/">Training-Tracker-7 Heroku App</a>
+
+<a href="YOUTUBE">Training Tracker Demo YouTube</a>
 
 <a href="https://github.com/sjohn214/TrainingTracker.git">Training Tracker GitHub Repo</a>
 
@@ -36,6 +39,9 @@ When the user loads the page, they should be given the option to create a new wo
 
 * Highly functioning application deployed on Heroku.
 * MongoDB Atlas
+
+![Atlas DB Files](public/img/atlasDBpic.png)
+
 * Add exercise feature
 * Stats page: Dashboard
 * Attribute changes for excercise type, duration, etc.
@@ -49,17 +55,31 @@ When the user loads the page, they should be given the option to create a new wo
   * index.html
   * stats.html
   
+![Public HTML Files](public/img/publicHTMLpic.png)
+
 * CSS Page
   * Styles.css
     * Contains styling (attributes and buttons)
 
-* 6 Javascript Pages: Containing 
+![Styles File](public/img/styleCSSpic.png)
+
+* 10 Javascript Pages: Containing 
     * APIs
-    * Variables, 
+    * Routes
+    * Server
+    * Variables 
     * Arrays and async functioning
     * If/else if statements 
     * Functions 
     * Seed files with Mongoose connection
+
+![Public Javascript Files](public/img/publicJavaScriptpics.png)
+
+![Models Files](public/img/modelsFilespic.png)
+
+![Routes](public/img/routesFilespic.png)
+
+![Server File](public/img/serverFilepic.png)
 
 # Authors
 * Shannondale Page (student) <a href="https://github.com/sjohn214">Git Hub Profile</a>
