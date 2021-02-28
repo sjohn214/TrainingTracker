@@ -56,7 +56,12 @@ router.get("/api/workouts", function (req, res) {
 // findAll returns all entries for a particular table when no option is provided
 // Access to the workouts as an argument inside of the callback function
 router.get("/api/workouts/range", function (req, res) {
-    Workout.find({}).then(function (dbWorkout) {
+    Workout.aggregate([{
+        $addFields: {
+            totalDuration: { $sum: "$exercises.duration" }
+        }
+    }]).then(function (dbWorkout) 
+    {
         res.json(dbWorkout);
     });
 });

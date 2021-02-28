@@ -7,14 +7,20 @@
 # Demo Features
 
 * The following image and gif shows the web application's appearance and functionality.
-![Training Tracker Screenshot](public/img/appPic.png)  
+
+Training Tracker Screenshot
+![Training Tracker Screenshot](public/img/appPic.png) 
+
+Training Tracker Dashboard Screenshot
 ![Training Tracker Dashboard Screenshot](public/img/appDashboardpic.png)
-![Training Tracker gif]()
+
+Training Tracker gif
+![Training Tracker gif](public/img/trainingtrackervid.gif)
 
 # Live URL:
 <a href="https://training-tracker-7.herokuapp.com/">Training-Tracker-7 Heroku App</a>
 
-<a href="YOUTUBE">Training Tracker Demo YouTube</a>
+<a href="https://youtu.be/kHYMlOaIjkI">Training Tracker Demo YouTube</a>
 
 <a href="https://github.com/sjohn214/TrainingTracker.git">Training Tracker GitHub Repo</a>
 
@@ -40,6 +46,7 @@ When the user loads the page, they should be given the option to create a new wo
 * Highly functioning application deployed on Heroku.
 * MongoDB Atlas
 
+Atlas DB Files
 ![Atlas DB Files](public/img/atlasDBpic.png)
 
 * Add exercise feature
@@ -73,12 +80,16 @@ When the user loads the page, they should be given the option to create a new wo
     * Functions 
     * Seed files with Mongoose connection
 
+Public Javascript Files
 ![Public Javascript Files](public/img/publicJavaScriptpics.png)
 
+Models Files
 ![Models Files](public/img/modelsFilespic.png)
 
+Routes
 ![Routes](public/img/routesFilespic.png)
 
+Server File
 ![Server File](public/img/serverFilepic.png)
 
 # Authors
